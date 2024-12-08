@@ -1,0 +1,161 @@
+.directory-section {
+  padding: 50px 0;
+  background-image: url('https://img.freepik.com/free-photo/copy-space-medical-desk_23-2148519719.jpg?t=st=1727602509~exp=1727606109~hmac=9d6d63f085ec54cc01d28fbbd4c58f20dd8fbd4811b3bfe931e13cfd27ca0a99&w=1800');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #1976d2;
+}
+
+.directory-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.text-content h2 {
+  font-size: 48px;
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input, .search-box select, .search-box button {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-box input, .search-box select {
+  width: 200px;
+}
+
+.search-box button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+}
+
+.doctor-image img {
+  max-width: 350px;
+  height: auto;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-left: -120%;
+}
+
+.icon-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 150px;
+}
+
+.icon-link img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.icon-link p {
+  font-size: 18px;
+  color: white;
+}
+
+.icon-link:hover {
+  background-color: #d1e7fd;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: -120%;
+}
+
+.search-card {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.search-container h2 {
+  font-size: 36px; 
+  color: #0056b3; 
+  margin-left: -50%; 
+}
+
+.search-container p {
+  margin-left: -55%; 
+}
+
+.search-box input, .search-box select, .search-box button {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-box input, .search-box select {
+  width: 200px;
+}
+
+.search-box button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+}
+

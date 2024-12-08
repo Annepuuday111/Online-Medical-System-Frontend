@@ -1,0 +1,15 @@
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .form-row > * {
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  .form-row > *:last-child {
+    margin-right: 0;
+  }
+  

@@ -1,0 +1,14 @@
+.add-doctor-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .add-doctor-container .MuiTypography-root {
+    margin-bottom: 20px;
+  }
+  
+  .add-doctor-container .MuiButton-root {
+    margin-top: 20px;
+  }
+  

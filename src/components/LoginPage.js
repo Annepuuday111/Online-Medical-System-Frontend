@@ -16,7 +16,7 @@ const LoginPage = ({ onLogin }) => {
     setErrorMessage('');
 
     // Admin login
-    if (email === 'admin@gmail.com' && password === 'admin') {
+    if (email === 'admin' && password === 'admin') {
       onLogin('admin');
       navigate('/admin');
       return;
